@@ -551,7 +551,7 @@ const OnigiriRestaurant = () => {
 // Router with Cart Context
 const AppRouter = ({ currentPage, setCurrentPage }) => {
   const { cart, getTotalPrice, getTotalItems, clearCart } = useCart();
-
+  
   return (
     <Router currentPage={currentPage} setCurrentPage={setCurrentPage}>
       <Route path="home" component={HomePage} />

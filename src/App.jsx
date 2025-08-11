@@ -348,7 +348,7 @@ const HomePage = ({ setCurrentPage }) => {
       <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         <div className="absolute inset-0">
           <img 
-            src="/Background.jpg" 
+            src="/ONIGIRI/Background.jpg" 
             alt="Background" 
             className="w-full h-full object-cover object-center"
           />
